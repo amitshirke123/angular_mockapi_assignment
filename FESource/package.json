@@ -1,0 +1,51 @@
+{
+  "name": "fesource",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^11.0.2",
+    "@angular/cdk": "^11.0.1",
+    "@angular/common": "^11.0.2",
+    "@angular/compiler": "^11.0.2",
+    "@angular/core": "^11.0.2",
+    "@angular/forms": "^11.0.2",
+    "@angular/material": "^11.0.1",
+    "@angular/platform-browser": "^11.0.2",
+    "@angular/platform-browser-dynamic": "^11.0.2",
+    "@angular/router": "^11.0.2",
+    "bootstrap": "^4.5.3",
+    "rxjs": "^6.6.3",
+    "tslib": "^2.0.3",
+    "zone.js": "^0.11.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "*",
+    "@angular/cli": "*",
+    "@angular/compiler-cli": "*",
+    "@angular/language-service": "*",
+    "@types/jasmine": "*",
+    "@types/jasminewd2": "*",
+    "@types/node": "*",
+    "codelyzer": "*",
+    "jasmine-core": "*",
+    "jasmine-spec-reporter": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-coverage-istanbul-reporter": "*",
+    "karma-jasmine": "*",
+    "karma-jasmine-html-reporter": "*",
+    "protractor": "*",
+    "ts-node": "*",
+    "tslint": "*",
+    "typescript": "^4.0.2"
+  }
+}
