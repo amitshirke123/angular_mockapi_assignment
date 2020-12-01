@@ -15,4 +15,4 @@
 	    • Create database inventorydb.
 	    • Table will get created in database when you run java application.
 
-Also check Angular_Java_Documentation.pdf file more details about assignment.
+Also check Angular_Java_Documentation.pdf file for more details about assignment.
