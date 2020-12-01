@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: "https://5fc26b299210060016869746.mockapi.io/api/inventory/items/"
+  baseUrl: "http://localhost:8080/items/"
 };
 
 /*

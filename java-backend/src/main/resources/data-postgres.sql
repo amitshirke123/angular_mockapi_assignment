@@ -1,0 +1,10 @@
+INSERT INTO item(name, price, description) VALUES('Item 1', 432, 'desc 1');
+INSERT INTO item(name, price, description) VALUES('Item 2', 175, 'desc 2');
+INSERT INTO item(name, price, description) VALUES('Item 3', 128, 'desc 3');
+INSERT INTO item(name, price, description) VALUES('Item 4', 174, 'desc 4');
+INSERT INTO item(name, price, description) VALUES('Item 5', 397, 'desc 5');
+INSERT INTO item(name, price, description) VALUES('Item 6', 855, 'desc 6');
+INSERT INTO item(name, price, description) VALUES('Item 7', 464, 'desc 7');
+INSERT INTO item(name, price, description) VALUES('Item 8', 367, 'desc 8');
+INSERT INTO item(name, price, description) VALUES('Item 9', 337, 'desc 9');
+INSERT INTO item(name, price, description) VALUES('Item 10', 387, 'desc 10');
