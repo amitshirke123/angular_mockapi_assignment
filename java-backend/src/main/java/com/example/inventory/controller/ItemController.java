@@ -41,8 +41,9 @@ public class ItemController {
     }
     
     @PostMapping(value="/items", name="To add new item")
-    public void add(@RequestBody Item item) {
+    public String add(@RequestBody Item item) {
         service.save(item);
+        return "Item Saved";
     }
     
     @PutMapping(value="/items/{id}", name="To update existing item by id") 
@@ -60,8 +61,9 @@ public class ItemController {
     
     
     @DeleteMapping(value="/items/{id}", name="To delete item by id")
-    public void delete(@PathVariable Integer id) {
+    public String delete(@PathVariable Integer id) {
         service.delete(id);
+        return "Item deleted";
     }
     
     
