@@ -25,7 +25,7 @@ public class Item {
     public Item() {
     }
  
-    public Item(Integer id, String name, String contact_number, String email) {
+    public Item(Integer id, String name, String description, float price) {
         this.id = id;
         this.name = name;
         this.description = description;

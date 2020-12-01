@@ -20,8 +20,8 @@ public class ItemService {
         return (List<Item>) repo.findAll();
     }
      
-    public void save(Item user) {
-        repo.save(user);
+    public void save(Item item) {
+        repo.save(item);
     }
      
     public Item get(Integer id) {
